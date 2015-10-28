@@ -46,7 +46,6 @@ namespace ShoppingCartTest
         [TestMethod]
         public void GetPrice_一二三集各買了一本_價格應為100_乘_3_乘_0點9_等於_270元()
         {
-
             //arrange
             var target = new ShoppingCart();
             var potterBook = new List<Book> {
@@ -55,6 +54,28 @@ namespace ShoppingCartTest
                 new Book { Name = "Potter第三集", Price = 100 }
             };
             var expected = 270;
+
+            target.AddBookList(potterBook);
+
+            //act
+            var actual = target.GetPrice();
+
+            //assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void GetPrice_一二三四集各買了一本_價格應為100_乘_4_乘_0點8_等於_320元()
+        {
+            //arrange
+            var target = new ShoppingCart();
+            var potterBook = new List<Book> {
+                new Book { Name = "Potter第一集", Price = 100 },
+                new Book { Name = "Potter第二集", Price = 100 },
+                new Book { Name = "Potter第三集", Price = 100 },
+                new Book { Name = "Potter第四集", Price = 100 }
+            };
+            var expected = 320;
 
             target.AddBookList(potterBook);
 
