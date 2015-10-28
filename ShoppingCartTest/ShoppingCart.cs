@@ -11,13 +11,28 @@ namespace ShoppingCartTest
         {
             _book = new List<Book>();
         }
-
+        
         internal void AddBook(Book book) {
             _book.Add(book);
         }
 
-        internal int GetPrice() {
-            return _book.Sum(s => s.Price);
+        internal void AddBookList(IEnumerable<Book> book)
+        {            
+            _book.AddRange(book);
+        }
+
+        internal int GetPrice()
+        {
+            var bookCount = _book.Count;
+            switch (bookCount)
+            {
+                case 1:
+                    return _book.Sum(s => s.Price);
+                case 2:
+                    return (int)(_book.Sum(s => s.Price) * 0.95);
+                default:
+                    return 0;
+            }
         }
     }
 }
