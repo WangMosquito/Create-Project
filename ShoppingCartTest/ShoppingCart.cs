@@ -34,6 +34,8 @@ namespace ShoppingCartTest
                     return (int)(_book.Sum(s => s.Price) * 0.9);
                 case 4:
                     return (int)(_book.Sum(s => s.Price) * 0.8);
+                case 5:
+                    return (int)(_book.Sum(s => s.Price) * 0.75);
                 default:
                     return 0;
             }
