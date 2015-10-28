@@ -1,0 +1,7 @@
+C:\Users\Mosquito\Documents\GitHub\ShoppingCartTest\ShoppingCartTest\bin\Debug\ShoppingCartTest.dll
+C:\Users\Mosquito\Documents\GitHub\ShoppingCartTest\ShoppingCartTest\bin\Debug\ShoppingCartTest.pdb
+C:\Users\Mosquito\Documents\GitHub\ShoppingCartTest\ShoppingCartTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Mosquito\Documents\GitHub\ShoppingCartTest\ShoppingCartTest\bin\Debug\zh-Hant\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Mosquito\Documents\GitHub\ShoppingCartTest\ShoppingCartTest\obj\Debug\ShoppingCartTest.csprojResolveAssemblyReference.cache
+C:\Users\Mosquito\Documents\GitHub\ShoppingCartTest\ShoppingCartTest\obj\Debug\ShoppingCartTest.dll
+C:\Users\Mosquito\Documents\GitHub\ShoppingCartTest\ShoppingCartTest\obj\Debug\ShoppingCartTest.pdb
